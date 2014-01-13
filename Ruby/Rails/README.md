@@ -1,12 +1,13 @@
-C<sup>3</sup>
-======
+Ruby on Rails
+=============
 
-The primary repo for Coder Collector's Club resources and example code. 
+Place powerpoints/code examples separate from the speaker's stuff here.  
 
-Possible Languages
-------------------
+Possible Coverage
+-----------------
 
-Ruby  
-Python  
-Javascript  
-C#  
+Model-View-Controller  
+Mixins  
+Open Classes  
+Blocks  
+Syntactical Sugar  

@@ -1,0 +1,43 @@
+@import url("http://fonts.googleapis.com/css?family=Lobster+Two");
+
+$background: #BF8230;
+$darker: #A65F00;
+$emphasis: #FFAD40;
+
+$primary: #BF5930;
+$complement1: #033E6B;
+$complement2: #007241;
+
+body {
+	background-color: $background;
+	font-family: "Lobster Two", cursive;
+
+	.main-banner {
+		text-align: center;
+		width: 200px;
+    	height: 150px;
+    	overflow: hidden;
+		img {
+			width: 400px;
+    		height: 300px;
+		}
+	}
+
+	.fluid-sectional {
+		text-align: center;
+	}
+
+	section.subsection {
+		background-color: $emphasis;
+		float: left;
+		display: block;
+		@media screen and (max-width: 1200px){
+			width: 100%;
+		}
+		@media screen and (min-width: 1200px){
+			width: 33%;
+		}
+		
+		margin: 0px auto;
+	}
+}

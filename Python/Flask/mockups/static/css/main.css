@@ -1,0 +1,25 @@
+@import url("http://fonts.googleapis.com/css?family=Lobster+Two");
+body {
+  background-color: #bf8230;
+  font-family: "Lobster Two", cursive; }
+  body .main-banner {
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    overflow: hidden; }
+    body .main-banner img {
+      width: 400px;
+      height: 300px; }
+  body .fluid-sectional {
+    text-align: center; }
+  body section.subsection {
+    background-color: #ffad40;
+    float: left;
+    display: block;
+    margin: 0px auto; }
+    @media screen and (max-width: 1200px) {
+      body section.subsection {
+        width: 100%; } }
+    @media screen and (min-width: 1200px) {
+      body section.subsection {
+        width: 33%; } }
