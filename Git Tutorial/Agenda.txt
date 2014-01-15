@@ -1,0 +1,62 @@
+Git Tutorial Timeline:
+
+What is Git? (~5 min)
+-What is Version Control?
+-Why learn it?
+
+GitHub (~5 min)
+-Basic Workflow
+-Setup Accounts
+
+Common Commands (~15 min)
+-init
+-add
+-clone
+-status
+-log
+-branch
+-checkout
+-commit
+-push
+-fetch
+-merge
+-pull 
+ --Combination of fetch and merge
+ 
+Workflow with Commands (~5 min)
+-Re-iterate the workflow with the commands
+
+Play Time (~25 min)
+
+Follow the next set of instructions:
+-Fork the repository: https://github.com/GaleDragon/ccubed
+-Clone the repository into your computer
+ --git clone [url] [folder]
+ --git remote add upstream [GaleDragon-URL]
+-Branch to add a new "feature"
+ --git checkout -b [branch-name]
+-Create a new file: [name].txt
+-Add the file to git
+ --git add [name].txt
+-Commit and push the branch to your fork
+ --git commit -am "[message]"
+ --git push origin [branch-name]
+-Check GitHub to submit a pull request to upstream.
+
+CHECKLIST OF WORKFLOW:
+[ ] Check you are in master
+[ ] Pull latest version from upstream
+[ ] Create new branch for feature/bug fix
+[ ] Do work for feature/bug fix (including commits)
+[ ] Move to Master
+[ ] Update Master
+[ ] Move to Branch
+[ ] Merge with Master
+[ ] Fix conflicts
+[ ] Commit/Push fixed Branch
+[ ] Create Pull Request
+
+Follow the next set of instructions:
+-Do the first 3 parts of the checklist
+-Modify this file as Michael tells you individually
+-Try to finish checklist and fix merge conflicts
