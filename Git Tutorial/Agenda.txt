@@ -29,10 +29,10 @@ Workflow with Commands (~5 min)
 Play Time (~25 min)
 
 Follow the next set of instructions:
--Fork the repository: https://github.com/GaleDragon/ccubed
+-Fork the repository: https://github.com/micole/GitPlayground
 -Clone the repository into your computer
  --git clone [url] [folder]
- --git remote add upstream [GaleDragon-URL]
+ --git remote add upstream [Micole-URL]
 -Branch to add a new "feature"
  --git checkout -b [branch-name]
 -Create a new file: [name].txt
